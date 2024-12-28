@@ -69,19 +69,19 @@ a {
 
 @media screen and (min-width: 768px) {
     .container {
-    max-width: 768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-    max-width: 1158px;
-    padding: 0 15px;
+        max-width: 1158px;
+        padding: 0 15px;
     }
 
     .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 
@@ -143,16 +143,16 @@ a {
     .icon-burger {
         display: none;
     }
-    
+
     .nav-menu {
         list-style-type: none;
         display: flex;
-        gap: 40px; 
+        gap: 40px;
     }
 
     .contacts {
         font-style: normal;
-        display: block; 
+        display: block;
     }
 
     .nav-address {
@@ -185,7 +185,7 @@ a {
         position: relative;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+
     .link-text:hover,
     .link-text:focus,
     .link-text:active {
@@ -231,16 +231,16 @@ a {
     .logo {
         margin-right: 76px;
     }
-       
+
     .nav-address {
         flex-direction: row;
         gap: 40px;
         align-items: center;
     }
-    
+
     .contacts .link-address {
         font-size: 16px;
-        line-height: 1.5; 
+        line-height: 1.5;
         letter-spacing: 0.02em;
     }
 
@@ -262,7 +262,7 @@ a {
 .section-one div {
     margin-left: auto;
     margin-right: auto;
-    text-align: center; 
+    text-align: center;
     max-width: 320px;
     padding: 72px 52px;
 }
@@ -335,7 +335,7 @@ a {
         max-width: 1158px;
         min-height: 600px;
     }
-        
+
     .section-one div {
         max-width: 1440px;
         padding: 188px 0;
@@ -344,51 +344,61 @@ a {
     .main-title {
         max-width: 496px;
     }
-        
+
     .main-button {
         margin-top: 48px;
     }
-
-/* ================= section 2 ==================== */
-
-.sestion-two {
-    max-width: 320px;
 }
 
-.lists-advantages .title-three {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
+    /* ================= section 2 ==================== */
+
+    .sestion-two div {
+        max-width: 320px;
+    }
+
+    .lists-advantages .title-three {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .lists-advantages .text-one {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding: 0;
+    }
+    .lists-advantages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 72px;
+}     
+
+    .cont-icons-section {
+        display: none;
+    }
+
+@media screen and (min-width: 768px) {
+    /* .sestion-two div { */
+        max-width: 768px;
+    }
+
+    /* .lists-advantages { */
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    
+    /* .advantages-items { */
+        width: calc((100% - 24px* 3) / 4);
+    }
 }
-
-.lists-advantages .text-one {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding: 0;
-}
-
-.lists-advantages {
-
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 72px;
-}
-
-.advantages-items {
-    width: calc((100% - 24px* 3) / 4);
-}
-
-.cont-icons-section {
-    display: none;
-}
-
-.cont-icons-section {
-    display: none;
-}
-
