@@ -17,51 +17,6 @@
 
 /* ================= section 2 ==================== */
 
-.lists-advantages .title-three {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-
-
-.lists-advantages .text-one {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding: 0;
-}
-
-.lists-advantages {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
-.advantages-items {
-    width: calc((100% - 72px) / 4);
-}
-
-.cont-icons-section {
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-}
-
-.cont-icons-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* =============== section 3 ================== */
 .section-three {
