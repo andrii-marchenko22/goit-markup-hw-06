@@ -23,20 +23,7 @@
 
 /* ===================== section 4 =================== */
 
-
-.title-portfolio {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-}
-
 .lists-portfolio {
-    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
