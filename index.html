@@ -19,7 +19,7 @@
 
   <body>
     <!-- ================= header ================= -->
-    <header class="page-header">
+    <header class="page-header hidden">
       <div class="container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
@@ -61,7 +61,7 @@
     <!-- ================ header ================== -->
     <main>
       <!-- section1 -->
-      <section class="section-one">
+      <section class="section-one hidden">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
@@ -70,7 +70,7 @@
       <!-- section1 -->
 
       <!-- section2 -->
-      <section class="sestion-two section">
+      <section class="sestion-two section hidden">
         <div class="container">
           <h2 hidden class="visually-hidden">Advantages</h2>
           <ul class="lists-advantages">
@@ -128,7 +128,7 @@
       <!-- section2 -->
 
       <!-- section3 -->
-      <section class="section-three section">
+      <section class="section-three section hidden">
         <div class="container">
           <h2 class="section-title-three">Our Team</h2>
           <ul class="lists-team">
@@ -326,7 +326,7 @@
       <!-- section3 -->
 
       <!-- section4 -->
-      <section class="section-four section">
+      <section class="section-four section hidden">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="lists-portfolio">
@@ -594,7 +594,7 @@
       <!-- section4 -->
     </main>
 
-    <footer class="footer-section">
+    <footer class="footer-section hidden">
       <div class="container container-for-all">
         <div class="container container-in-foot">
           <a class="logo log-foot" href="./index.html"
@@ -660,7 +660,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open hidden">
+    <div class="modal-overlay is-open">
       <div class="modal-form-container">
         <button type="button" class="modal-close">
           <svg class="icon-modal-close" width="8" height="8">
@@ -735,8 +735,10 @@
                 ><svg width="10" height="8" class="check-icon">
                   <use href="./images/icons.svg#icon-done"></use></svg
               ></span>
-              I accept the terms and conditions of the
-              <a href="" class="privacy-policy">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a href="" class="privacy-policy">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="send-form" type="submit">Send</button>
