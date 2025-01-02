@@ -19,8 +19,8 @@
 
   <body>
     <!-- ================= header ================= -->
-    <header class="page-header hidden">
-      <div class="container">
+    <header class="page-header">
+      <div class="container cont-bfor-brg">
         <nav class="navigation">
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio">Studio</span></a
@@ -56,6 +56,71 @@
             <use href="./images/icons.svg#icon-burger-mobile"></use>
           </svg>
         </button>
+      </div>
+      <div class="mobile-menu-brg is-open">
+        <div class="mobile-menu-container container">
+          <button type="button" class="mobile-menu-close">
+            <svg class="icon-mobile-menu-header" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+          </button>
+          <nav class="modal-window-mobile">
+          <ul class="list-mobile-menu">
+            <li class="item-mobile-menu">
+              <a href="./index.html" class="link-mobile-menu studio-mobile">Studio</a>
+            </li>
+            <li class="item-mobile-menu">
+              <a href="" class="link-mobile-menu">Portfolio</a>
+            </li>
+            <li class="item-mobile-menu">
+              <a href="" class="link-mobile-menu">Contacts</a>
+            </li>
+          </ul>
+          </nav>
+          <address class="contacts-mobile-version">
+            <ul class="lists-address-mobile">
+            <li class="item-address-mobile">
+              <a href="mailto:info@devstudio.com" class="link-address-mobile item-gmail-mobile">info@devstudio.com</a>
+            </li>
+            <li class="item-address-mobile">
+              <a href="tel:+110001111111" class="link-address-mobile"
+                >+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+          </address>
+          <div class="andrey">
+            <ul class="lists-icons-mobile">
+                  <li class="items-icons-mobile-vers">
+                    <a href="" class="icons-link-mobile-vers">
+                      <svg class="icon-mobile" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icons-mobile-vers">
+                    <a href="" class="icons-link-mobile-vers">
+                      <svg class="icon-mobile" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icons-mobile-vers">
+                    <a href="" class="icons-link-mobile-vers">
+                      <svg class="icon-mobile" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icons-mobile-vers">
+                    <a href="" class="icons-link-mobile-vers">
+                      <svg class="icon-mobile" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </div>
       </div>
     </header>
     <!-- ================ header ================== -->
@@ -660,8 +725,8 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
-      <div class="modal-form-container">
+    <!-- <div class="modal-overlay is-open"> -->
+      <div class="modal-form-container hidden">
         <button type="button" class="modal-close">
           <svg class="icon-modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
